@@ -1,1 +1,78 @@
-/* CSS stillerinizi buraya girin */
+header{
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background: white;
+}
+.header-name{
+
+    margin: 50px;
+    
+}
+
+.header-nav-items{
+    color: black;
+    background: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.home-page{
+
+    background: black;
+    color: white;
+    
+    
+}
+ .header-nav{
+    padding: 35px;
+} 
+
+.main-div{
+    background: blue;
+    height: 50vh;
+    width:80vw;
+    margin: auto;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-image: url(https://www.gaste24.com/images/haberler/2022/10/besiktas_in_stadi_vodafone_park_in_adi_degisiyor_h199109_70729.jpg);
+}
+.main-div-strings{
+    background: white;
+}
+
+.second-divs{
+    height: 75vh;
+    width:95vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.second-div-item{
+    margin: 1%;
+    text-align: center;
+}
+.div-img{
+    width: 555px;
+    height: 250px;
+}
+
+footer{
+    height: 8vh;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: gray;
+}
+
+button{
+    height: 45px;
+    background: gray;
+}
